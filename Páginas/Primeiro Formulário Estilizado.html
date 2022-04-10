@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro Formulário Estilizado</title>
+    <style>
+
+        div {
+            
+            width: 40%;
+            height: 640px;
+            background-color:beige;    
+            margin: 0 auto;
+            padding: 10px;
+            border: 2px solid rgb(5, 5, 5);
+
+        }
+
+        label {
+
+            color:black; 
+            font-size: 15px;
+            text-align: center;
+            font-family: verdana;
+        }
+
+        .dados {
+            
+            padding: 10px; 15px;
+            margin: 8px 0;
+            display: flex; 
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            font family: "Helvetica Neue"
+
+        }
+
+        .dados:hover {
+            background-color:bisque;
+
+
+        }
+
+        #button {
+            background-color:bisque;
+            border: 1px solid black;
+            color:black;
+            display: inline;
+            padding: 15px; 15px;
+            margin: 2px; 2px;
+            cursor: pointer;
+
+        }
+
+        form{
+            display:inline-block;
+            inline direction: column;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+
+        <form action="">
+
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" id="nome" class="dados"></input>
+
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" name="sobrenome" id="Sobrenome" class="dados"></input>
+
+            <label for="data de Nascimento">Data de Nascimento</label>
+            <input type="date" name="data" id="data" class="dados"></input>
+            
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" class="dados"></input>
+
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" class="dados"></input>
+
+            <label for="confirmar senha">Confirmar Senha</label>
+            <input type="password" name="confirmar senha" id="confirmar senha" class="dados"></input>
+
+            <label for="adress">Endereço</label>
+            <input type="adress" name="endereço" id="endereço" class="dados" placeholder="Endereço">
+
+            <label for="number">Cep</label>
+            <input type="number" name="name" id="cep" class="dados" placeholder="00000-0000"></input>
+
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado">
+                <option value="">Selecione</option>
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+            </select>
+
+            <input type="submit" value="Confirmar" id="button" >
+
+
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
